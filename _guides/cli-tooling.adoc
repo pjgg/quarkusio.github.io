@@ -34,6 +34,8 @@ If `jbang` has already been installed, you can it directly:
 ----
 # This can also be used to update to the latest version
 jbang app install --fresh --force quarkus@quarkusio
+# Or create an alias in order to use a specific version
+jbang app install --name qs2.2.5 io.quarkus:quarkus-cli:2.2.5.Final:runner
 # Use the latest (or locally built) snapshot (with qss as an alias)
 jbang app install --force --name qss ~/.m2/repository/io/quarkus/quarkus-cli/999-SNAPSHOT/quarkus-cli-999-SNAPSHOT-runner.jar
 ----
